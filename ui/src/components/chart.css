@@ -1,0 +1,44 @@
+.chat__card {
+  /* height: 95vh; */
+  border: 0.5px solid rgb(255, 255, 255);
+  /* border-radius: 10px; */
+  /* margin: auto; */
+  /* box-shadow: -1px 9px 26px 3px rgb(47, 47, 47) !important; */
+  background: rgb(232, 232, 232);
+}
+
+.common_style__chat {
+  border: 1px solid black;
+}
+
+/* .chats__card {
+  width: 31vw;
+} */
+
+/* .chats__detail__card {
+  width: 67vw;
+} */
+
+.user__class:hover {
+  background: #3593c3;
+  color: white;
+}
+
+.chatter__box {
+  border: 1px solid;
+  height: 89%;
+  overflow-y: hidden;
+  border-radius: 2%;
+}
+
+.loader__class {
+  background: #d2d2d2;
+  width: 64px;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.spinner-grow {
+  background: #938c8c !important;
+}

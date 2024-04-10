@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.auth_card {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./assets/images/social-media-3846597.svg");
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.4; */
+}
+
+.search__card {
+  border: 0.5px solid grey;
+  border-radius: 7px;
+  outline: none !important;
+}
+
+.notification__count {
+  font-size: 23px;
+  position: absolute;
+  right: -1px;
+  font-weight: bolder;
+  top: 2px;
+}
+
+button {
+  outline: none !important;
+}
+
+.profile_img {
+  width: 55px;
+  border-radius: 50%;
+  border: 1px solid #0f4aa9;
+}
+
+.user_img {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  border: 1px solid #0f4aa9;
+}
+
+.circle_modal_img {
+  width: 173px;
+  height: 173px;
+  border-radius: 50%;
+  border: 6px solid #0f4aa9;
+}
+
+.ant-modal-footer {
+  display: none !important;
+}
+
+.ant-modal-content {
+  text-align: center !important;
+}
+
+.ant-modal-title {
+  font-size: xx-large !important;
+}
+
+i {
+  cursor: pointer;
+}
+
+.pill {
+  border-radius: 5px;
+  padding: 2px;
+  margin: 4px;
+  padding-left: 5px;
+  background: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .chats__detail__card {
+    /* flex: 0 0 auto;
+    width: 100%; */
+    display: none !important;
+  }
+}

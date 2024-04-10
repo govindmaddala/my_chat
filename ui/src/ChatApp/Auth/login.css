@@ -1,0 +1,52 @@
+.auth_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__heading__signin{
+    margin: 53px auto -66px !important;
+}
+.app__heading__signup{
+    margin: 53px auto 93px !important;
+}
+.app__heading {
+  width: 700px;
+  height: 65px !important;
+  border: 1px solid black;
+  
+  background-color: transparent;
+  position: relative;
+  top: 161px;
+  text-align: center;
+  background: white;
+  box-shadow: -1px 9px 26px 3px black !important;
+  padding-top: 15px;
+}
+
+.signin__card{
+    height: 400px !important;
+}
+
+.signup__card{
+    height: 560px !important;
+}
+
+.auth__card__main {
+  width: 700px;
+  border: 1px solid black;
+  margin: auto;
+  background: white;
+  box-shadow: -1px 9px 26px 3px black !important;
+}
+
+.active__tab {
+  background-color: darkcyan !important;
+  color: white !important;
+}
+
+.common__card {
+  border: 1px solid darkcyan !important;
+  height: 100vh !important;
+  padding: 18px !important;
+}
+

@@ -1,0 +1,45 @@
+.cursor__class {
+  cursor: pointer !important;
+}
+
+input {
+  outline: none !important;
+  border: 1px solid gainsboro !important;
+  border-radius: 7px !important;
+  height: 46px !important;
+  padding-left: 10px !important;
+  width: 100% !important;
+}
+
+div > label {
+  margin-bottom: 4px !important;
+}
+
+label {
+  font-weight: bold !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.anchor__tab {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+}
+
+.loading__class {
+  opacity: 0.3;
+  cursor: not-allowed;
+  position: relative;
+  z-index: -1;
+}
+
+::-webkit-scrollbar{
+  width: 3px !important;
+  height: 10px !important;
+}
+
+::-webkit-scrollbar-track-piece{
+  width: 3px !important;
+  height: 3px !important;
+}
