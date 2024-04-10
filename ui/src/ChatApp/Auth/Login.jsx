@@ -206,7 +206,7 @@ const Login = () => {
               : "app__heading card app__heading__signup"
           }
         >
-          <h3>Talk-A-Tive</h3>
+          <h3>Chat App</h3>
         </div>
         <div
           className={
@@ -285,7 +285,7 @@ const Login = () => {
                 </form>
 
                 <button
-                  className="btn btn-danger w-100 mt-3"
+                  className="btn btn-danger w-100 mt-3 d-none"
                   onClick={loginAsGuest}
                 >
                   Login as Guest
@@ -371,7 +371,7 @@ const Login = () => {
                 </form>
 
                 <button
-                  className="btn btn-danger w-100 mt-3"
+                  className="btn btn-danger w-100 mt-3 d-none"
                   onClick={loginAsGuest}
                 >
                   Login as Guest
