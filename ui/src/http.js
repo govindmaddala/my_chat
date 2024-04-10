@@ -1,5 +1,5 @@
 import axios from "axios";
-export const ENDPOINT = "https://my-chat-8v36.onrender.com"
+export const ENDPOINT = "https://govind-chat-app.onrender.com"
 const http = axios.create({
     baseURL: `${ENDPOINT}/api`
 })
